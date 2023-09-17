@@ -73,3 +73,47 @@
 // oddNumbers += i + "," ;}
 //     }
 // document.write("odd numbers: " + oddNumbers.slice(0, -2));
+
+// q7
+
+// var A =["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput=prompt("enter an item to search which is on the list");
+// if (A.includes(userInput)){
+//     alert('{userInput} is found on the list');
+// }
+// else{
+//     alert('{userInput} is not found on the list')
+// }
+
+// // q8
+// let A = [24, 53, 78, 91, 12 ];
+// let largest =A[0]
+// for (let i=1; i<A.length; i++){
+//     if (A[i] > largest){
+//         largest=A[i];
+//     }
+// } 
+// console.log("the largest number in the array is : " + largest) ;
+// document.write("the largest number in the array is : " + largest)
+
+// q10
+
+// for (let i = 1; i <= 100; i++) {
+// if (i % 5 === 0) {
+// console.log(i); 
+// document.write(i + "<br>");
+// }
+// }
+
+
+
+// q1
+
+// for (let i = 0; i < 10; i++) {
+//     console.log("Iteration: " + (i + 1));
+//     }
+
+    // q2
+    for (let i = 0; i <= 11; i++) {
+   
+        }
