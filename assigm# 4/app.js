@@ -113,7 +113,8 @@
 //     console.log("Iteration: " + (i + 1));
 //     }
 
-    // q2
+    
+// q2
     for (let i = 0; i <= 11; i++) {
-   
+        // Loop body
         }
