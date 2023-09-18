@@ -115,6 +115,6 @@
 
     
 // q2
-    for (let i = 0; i <= 11; i++) {
-        // Loop body
-        }
+    for (let i = 0; i <= 12; i++) {
+  // code to be executed in each iteration
+}
