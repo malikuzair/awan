@@ -121,6 +121,13 @@
 
 //Q3
 //The correct code should be: //
-
-
 //for (var i = 0; i <= 4; i++)//
+
+//Q4//
+for (let count = 0; count < 100; count++) {
+  // code to be executed in each loop iteration
+}
+//q5//
+for (let i = 6; i > 3; i--) {
+  console.log(i);
+}
