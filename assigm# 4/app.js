@@ -115,9 +115,9 @@
 
     
 // q2
-    for (let i = 0; i <= 12; i++) {
+   // for (let i = 0; i <= 12; i++) {
   // code to be executed in each iteration
-}
+}//
 
 //Q3
 //The correct code should be: //
