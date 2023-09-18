@@ -131,3 +131,7 @@ for (let count = 0; count < 100; count++) {
 for (let i = 6; i > 3; i--) {
   console.log(i);
 }
+//q6//
+const myArray = [1, 2, 3, 4, 5];
+const arrayLength = myArray.length;
+console.log(arrayLength);
