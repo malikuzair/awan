@@ -135,3 +135,7 @@ for (let i = 6; i > 3; i--) {
 const myArray = [1, 2, 3, 4, 5];
 const arrayLength = myArray.length;
 console.log(arrayLength);
+//q7//
+let flag = true; 
+// or//
+ let flag = false;
