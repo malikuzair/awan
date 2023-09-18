@@ -50,4 +50,11 @@ var userNames = ["John", "Jane", "Bob", "Sara"];
 
 // prompt user to enter first name
 var firstName = prompt("Enter first name:");
-```
+for (let i = 0; i < userNames.length; i++) {
+  if (userNames[i] === userName) {
+    alert("Enter");
+    break;
+  } else if (i === userNames.length - 1) {
+    alert("Please write correct user name");
+  }
+}
