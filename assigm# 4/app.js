@@ -118,3 +118,8 @@
     for (let i = 0; i <= 12; i++) {
   // code to be executed in each iteration
 }
+
+//Q3
+The correct code should be: 
+
+//for (var i = 0; i <= 4; i++)//
