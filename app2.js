@@ -44,3 +44,10 @@ for (let i = 0; i < 10; i++) {
 
 
 //q10//
+
+// create array of user names
+var userNames = ["John", "Jane", "Bob", "Sara"];
+
+// prompt user to enter first name
+var firstName = prompt("Enter first name:");
+```
