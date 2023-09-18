@@ -139,3 +139,14 @@ console.log(arrayLength);
 let flag = true; 
 // or//
  let flag = false;
+//q8//
+for (let i = 0; i < pets.length; i++) {
+    // code to be executed inside the loop//
+}
+
+//q09//
+for (let i = 0; i < 10; i++) {
+  if (i === 1) {
+    alert(i);
+    break;
+  }
