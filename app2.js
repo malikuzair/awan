@@ -58,3 +58,35 @@ for (let i = 0; i < userNames.length; i++) {
     alert("Please write correct user name");
   }
 }
+//Q11///
+var matchFound = false;
+for (var i = 0; i < list.length; i++) {
+  if (userInput === list[i]) {
+    alert("Match found");
+    matchFound = true;
+    break;
+  }
+};
+
+if (!matchFound) {
+  alert("No match found");
+}
+//Q12/
+
+
+for (var i = 0; i < firstArr.length; i++) { 
+  // code to be executed inside the loop 
+}
+    let firstArr = ['a', 'b', 'c', 'd', 'e', 'f'];
+let secondArr = ['1', '2', '3', '4', '5', '6', 'j'];
+
+for (let i = 0; i < firstArr.length; i++) {
+  for (let j = 0; j < secondArr.length; j++) {
+    if (j < secondArr.length - 1) {
+      console.log(firstArr[i] + secondArr[j]);
+    } else {
+      console.log(firstArr[i] + secondArr[j]);
+      break;
+    }
+  }
+}
