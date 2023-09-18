@@ -1,6 +1,20 @@
 // ARRAY AND LOOPS
 // ++++++++++++++++Q1+++++++++++++
 
+// declare a 2D array with 3 rows and 4 columns
+let myArray = new Array(3);
+for (let i = 0; i < myArray.length; i++) {
+  myArray[i] = new Array(4);
+}
+
+// set values for the array
+myArray[0][0] = "a";
+myArray[0][1] = "b";
+myArray[1][2] = "c";
+myArray[2][3] = "d";
+
+console.log(myArray); // output: [["a", "b", undefined, undefined], [undefined, undefined, "c", undefined], [undefined, undefined, undefined, "d"]]
+
 // ++++++++++/ Q2++++++++++
 let matrix = [
   [1, 2, 3],
