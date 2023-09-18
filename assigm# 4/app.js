@@ -120,6 +120,7 @@
 }
 
 //Q3
-The correct code should be: 
+//The correct code should be: //
+
 
 //for (var i = 0; i <= 4; i++)//
