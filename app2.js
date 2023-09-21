@@ -1,3 +1,33 @@
+//PALINDROME//
+let str='civic'
+let ispalandrome=false
+for(let i=0;i<str.length;i++)
+{
+    if (str[i]===str[str.length-1-i])
+    {
+        ispalandrome=true
+    }
+    else{
+       ispalandrome=false 
+    }
+}
+if(ispalandrome)
+{
+    console.log("the given string is palandrome:")
+}
+else{
+    console.log("the given string is not palandrome:")
+}
+
+
+
+
+
+
+
+
+
+
 // q1
 
 // for (let i = 0; i < 10; i++) {
